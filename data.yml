@@ -1,8 +1,5 @@
-albumName: FAWM 20XX
+albumName: Welcome to the Bunco Booth
 songs:
-  - title: Song Title 01
-    mp3Filename: song-title-01
-    notes: "Song notes 01"
-  - title: Song Title 02
-    mp3Filename: song-title-02
-    notes: "Song notes 02"
+  - title: Good Innings
+    mp3Filename: ab_good_innings
+    notes: "Inspired by the heartlessness of Boris Johnson during the pandemic."
