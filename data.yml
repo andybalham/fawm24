@@ -3,3 +3,9 @@ songs:
   - title: Good Innings
     mp3Filename: ab_good_innings
     notes: "Inspired by the heartlessness of Boris Johnson during the pandemic."
+  - title: Hunker in the Bunker
+    mp3Filename: ab-hunker-in-the-bunker
+    notes: |
+      Inspired by tales of billionaires planning for the end of the world: 
+      <a href="https://www.theregister.com/2023/12/18/zuckerberg_hawaii_bunker/">Zuckerberg hunkers down in Hawaii to wait out apocalypse</a>
+      <a href="https://www.theguardian.com/news/2022/sep/04/super-rich-prepper-bunkers-apocalypse-survival-richest-rushkoff">The super-rich ‘preppers’ planning to save themselves from the apocalypse</a>
