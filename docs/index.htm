@@ -76,6 +76,36 @@
         </div>
     </div>
   
+    <div class="song-item mt-4">
+        <h3>This Land is Ours</h3>
+
+        <audio controls>
+            <source src="mp3s/ab-this-land-is-ours.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="mt-2">
+            <a href="mp3s/ab-this-land-is-ours.mp3" class="btn btn-primary btn-sm" download>Download MP3</a>
+            <button class="btn btn-info btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#notes2">Notes</button>
+            <button class="btn btn-secondary btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#lyrics2" onclick="loadLyrics('ab-this-land-is-ours')">Lyrics</button>
+        </div>
+
+        <div class="collapse mt-3" id="notes2">
+            <div class="card card-body">
+                Inspired by the sad fact that <a href="https://www.theguardian.com/money/2019/apr/17/who-owns-england-thousand-secret-landowners-author">half of England is owned by less than 1% of the population</a>.
+
+            </div>
+        </div>
+
+        <div class="collapse mt-3" id="lyrics2">
+            <div class="card card-body" id="ab-this-land-is-ours-lyrics">
+                <!-- Lyrics will be loaded here -->
+            </div>
+        </div>
+    </div>
+  
 
         <footer class="mt-5">
             <p>All material is copyrighted to Andy Balham</p>
