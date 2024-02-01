@@ -13,3 +13,6 @@ songs:
     mp3Filename: ab-this-land-is-ours
     notes: |
       Inspired by the sad fact that <a href="https://www.theguardian.com/money/2019/apr/17/who-owns-england-thousand-secret-landowners-author">half of England is owned by less than 1% of the population</a>.
+  - title: The Double-Edged Sword
+    mp3Filename: ab-the-double-edged-sword
+    notes: "One for irony corner, as this was written by ChatGPT via the prompt 'Write a song about the dangers of artificial intelligence. Make sure to mention Skynet from the Terminator movies.'"
