@@ -16,3 +16,6 @@ songs:
   - title: The Double-Edged Sword
     mp3Filename: ab-the-double-edged-sword
     notes: "One for irony corner, as this was written by ChatGPT via the prompt 'Write a song about the dangers of artificial intelligence. Make sure to mention Skynet from the Terminator movies.'"
+  - title: Trickle Down (Makes Me Want to Throw Up)
+    mp3Filename: ab-trickle-down
+    notes: "Inspired by those that cling onto the long-debunked economic theory of the same name."

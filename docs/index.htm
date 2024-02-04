@@ -135,6 +135,35 @@
         </div>
     </div>
   
+    <div class="song-item mt-4">
+        <h3>Trickle Down (Makes Me Want to Throw Up)</h3>
+
+        <audio controls>
+            <source src="mp3s/ab-trickle-down.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="mt-2">
+            <a href="mp3s/ab-trickle-down.mp3" class="btn btn-primary btn-sm" download>Download MP3</a>
+            <button class="btn btn-info btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#notes4">Notes</button>
+            <button class="btn btn-secondary btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#lyrics4" onclick="loadLyrics('ab-trickle-down')">Lyrics</button>
+        </div>
+
+        <div class="collapse mt-3" id="notes4">
+            <div class="card card-body">
+                Inspired by those that cling onto the long-debunked economic theory of the same name.
+            </div>
+        </div>
+
+        <div class="collapse mt-3" id="lyrics4">
+            <div class="card card-body" id="ab-trickle-down-lyrics">
+                <!-- Lyrics will be loaded here -->
+            </div>
+        </div>
+    </div>
+  
 
         <footer class="mt-5">
             <p>All material is copyrighted to Andy Balham</p>
