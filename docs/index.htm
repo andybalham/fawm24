@@ -164,6 +164,35 @@
         </div>
     </div>
   
+    <div class="song-item mt-4">
+        <h3>Old Timer</h3>
+
+        <audio controls>
+            <source src="mp3s/ab-old-timer.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="mt-2">
+            <a href="mp3s/ab-old-timer.mp3" class="btn btn-primary btn-sm" download>Download MP3</a>
+            <button class="btn btn-info btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#notes5">Notes</button>
+            <button class="btn btn-secondary btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#lyrics5" onclick="loadLyrics('ab-old-timer')">Lyrics</button>
+        </div>
+
+        <div class="collapse mt-3" id="notes5">
+            <div class="card card-body">
+                Lyrics by FAWMster @srcoops. Between us we have a combined age of over 140, so we know about being old-timers.
+            </div>
+        </div>
+
+        <div class="collapse mt-3" id="lyrics5">
+            <div class="card card-body" id="ab-old-timer-lyrics">
+                <!-- Lyrics will be loaded here -->
+            </div>
+        </div>
+    </div>
+  
 
         <footer class="mt-5">
             <p>All material is copyrighted to Andy Balham</p>
