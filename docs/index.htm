@@ -222,6 +222,35 @@
         </div>
     </div>
   
+    <div class="song-item mt-4">
+        <h3>Sorry (Seems to be the Easiest Word)</h3>
+
+        <audio controls>
+            <source src="mp3s/ab-sorry-seems-to-be-the-easiest-word.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="mt-2">
+            <a href="mp3s/ab-sorry-seems-to-be-the-easiest-word.mp3" class="btn btn-primary btn-sm" download>Download MP3</a>
+            <button class="btn btn-info btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#notes7">Notes</button>
+            <button class="btn btn-secondary btn-sm toggle-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#lyrics7" onclick="loadLyrics('ab-sorry-seems-to-be-the-easiest-word')">Lyrics</button>
+        </div>
+
+        <div class="collapse mt-3" id="notes7">
+            <div class="card card-body">
+                Inspired by the way that corporation executives are always so very sorry when they are caught. Not sorry enough to fix what they profited from of course.
+            </div>
+        </div>
+
+        <div class="collapse mt-3" id="lyrics7">
+            <div class="card card-body" id="ab-sorry-seems-to-be-the-easiest-word-lyrics">
+                <!-- Lyrics will be loaded here -->
+            </div>
+        </div>
+    </div>
+  
 
         <footer class="mt-5">
             <p>All material is copyrighted to Andy Balham</p>
